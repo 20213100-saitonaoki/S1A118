@@ -1,10 +1,12 @@
 body {
+  
   font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: .8px;
   color: #333;
 }
+
 
 a {
   transition: opacity .3s;
@@ -153,6 +155,13 @@ li {
 }
 
 .main-visual-title {
+  padding: 1rem 3rem;
+  -webkit-transform: skew(-15deg);
+  transform: skew(-15deg);
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#209cff), to(#68e0cf));
+  background-image: -webkit-linear-gradient(left, #209cff 0%, #68e0cf 100%);
+  background-image: linear-gradient(to right, #209cff 0%, #68e0cf 100%);
   font-size: 60px;
   font-weight: bold;
   line-height: 1.2;
@@ -181,9 +190,17 @@ li {
   border-radius: 50%;
 }
 .main-visual-text {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #5989cf;
+  background: #c6e4ff;
+  border-bottom: solid 6px #aac5de;
+  border-radius: 9px;
   flex: 1;
 }
 .main-visual-text p:not(:last-child) {
+  margin: 0; 
+  padding: 0;
   margin-bottom: 30px;
 }
 
