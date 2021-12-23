@@ -55,7 +55,9 @@ li {
   padding: 0 40px;
 }
 .logo{
-  height: 50%;
+  width: 200px;
+  height: 200px;
+  margin:0 auto;
 }
 /*--------------------------------
  見出し
