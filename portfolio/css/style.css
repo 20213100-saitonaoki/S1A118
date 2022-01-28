@@ -47,7 +47,7 @@ li {
 
 .section:nth-of-type(odd) {
   background-color: #f7f7f7;
-  height: 100%;
+  height: 100%; 
   width: 100%;
   left:0;
   right: 0;
@@ -81,7 +81,7 @@ li {
       0%{background-position:0% 82%}
       50%{background-position:100% 19%}
       100%{background-position:0% 82%}
-  }
+  } 
 
 
 .inner {
@@ -119,9 +119,11 @@ li {
   top: 0;
   z-index: 10;
   width: 100%;
+  
   background-color: #fff;
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
 }
+
 
 .header .inner {
   display: flex;
