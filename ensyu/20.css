@@ -21,7 +21,7 @@ left: 100px;
 }
 section.second {
   /*ここから*/
-position:relative;
+  position:relative;
   /*ここまで*/
   margin-bottom: 200px;
 }
