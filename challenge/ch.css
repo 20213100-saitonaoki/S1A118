@@ -32,8 +32,6 @@ section{
     background: #fff;
     border: 0.1px solid;
     border-color: #ddd;
-    
-    
 }
 img{
     display: block;
@@ -45,7 +43,7 @@ h2{
     color:#f83;
 }
 ul,ol{
-    padding-left: 4%;
+    padding-left: 4px;
 }
 address{
     text-align:  center;  
