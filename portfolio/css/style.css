@@ -5,9 +5,11 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   color: #333;
+  background-color: #9ec34b;
+  background-image: url(https://pbs.twimg.com/media/E1Zidv3VUAMlOVQ?format=png&name=large);
+  background-size:auto;
+  text-align: center;
 }
-
-
 a {
   transition: opacity .3s;
   text-decoration: none;
@@ -130,6 +132,7 @@ li {
   align-items: center;
   justify-content: space-between;
   padding: 20px 40px;
+  background-color: cadetblue;
 }
 
 .header-logo {
@@ -188,6 +191,7 @@ li {
   align-items: center;
   justify-content: center;
   height: 85vh;
+  
   text-align: center;
 }
 
